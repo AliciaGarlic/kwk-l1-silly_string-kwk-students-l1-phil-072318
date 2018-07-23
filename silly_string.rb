@@ -22,8 +22,7 @@ puts lowercased_phrase
 # Challenge 4: Count how many letters are in that big_word
 
 big_word = "supercalifragilisticexpialidocious"
-big_word.
-letter_count = big_word.letter_count # Put a . after big_word and use a String method.
+letter_count = big_word.letter_count.length
 
 puts "There are #{letter_count} in #{big_word}"
 
