@@ -1,7 +1,7 @@
 
 # Challenge 1: Fill this string in with your favorite word
 
-your_favorite_word = ""
+your_favorite_word = "loganpaul"
 
 puts "My favorite word is #{your_favorite_word}"
 
@@ -22,7 +22,7 @@ puts lowercased_phrase
 # Challenge 4: Count how many letters are in that big_word
 
 big_word = "supercalifragilisticexpialidocious"
-
+big_word.validates_length_of
 letter_count = big_word # Put a . after big_word and use a String method.
 
 puts "There are #{letter_count} in #{big_word}"
